@@ -1,0 +1,17 @@
+.cool{
+    background-color: rgb(240, 167, 167);
+    font: Verdana, "DejaVu sans", sans-serif;
+}
+#a{
+    color: rgb(45, 45, 177);
+    font-size: 36px;
+}
+
+#b{
+    background-color: #a2cfa2;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cooler{
+    font-size: 24px;
+}
