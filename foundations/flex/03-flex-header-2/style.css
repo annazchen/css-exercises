@@ -1,5 +1,6 @@
 /* this is some magical font-importing.  
-you'll learn about it later. */
+you'll learn about it later. 
+sweet ok*/ 
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
@@ -8,11 +9,24 @@ body {
   font-family: Besley, serif;
 }
 
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
 }
+.left, .right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+
 
 .profile-image {
   background: rebeccapurple;
@@ -45,4 +59,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+
 }
